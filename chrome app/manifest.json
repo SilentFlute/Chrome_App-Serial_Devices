@@ -1,0 +1,16 @@
+{
+  "name": "Communication With Arduino By Serial",
+  "description": "我的第一个 Chrome 应用。",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["asserts/js/background.js"]
+    }
+  },
+  "permissions": ["serial"],
+  "icons": {
+    "16": "asserts/img/icon_16.png",
+    "128": "asserts/img/icon_128.png"
+  }
+}

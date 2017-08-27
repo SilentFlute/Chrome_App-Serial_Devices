@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style type="text/css">
+    .res{
+      display: none;
+      position: absolute;
+      left: 120px;
+      top:136px;
+    }
+    .connect_box{
+      position: absolute;
+      left : 0;
+      top: 0;
+    }
+    .buffer_box{
+      position: absolute;
+      left: 40px;
+      top: 120px;
+      width:100%;
+      height:100%;
+      overflow:auto;
+    }
+    .main_box{
+      position: relative;
+      width: 390px;
+      height: 254px;
+      margin: 0 auto;
+    }
+    .input_box{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<div class="main_box" id="main_box">
+  <!--端口选择界面-->
+  <div id="connect_box" class="connect_box">
+  <label>
+    <select id="port_list">
+      <option>请稍后...</option>
+    </select>
+  </label>
+  <button id="connect_button">连接端口</button>
+  <button id="refresh_button">刷新端口</button>
+  <div class="input_box" id="input_box">
+    <p>
+      请输入一个数字:
+      <label>
+        <input type="text" id="input_num">
+      </label>
+    </p>
+    <button id="out_btn">点击发送数据</button>
+    <p class="res" id="res">
+      返回的值为:
+      <span id="res_val"></span>
+    </p>
+  </div>
+</div>
+
+  <!--日志信息-->
+  <div id="buffer_box" class="buffer_box"></div>
+</div>
+
+<script src="asserts/js/serial.js"></script>
+</body>
+</html>
