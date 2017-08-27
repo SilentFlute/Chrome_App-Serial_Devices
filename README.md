@@ -1,6 +1,6 @@
 # Chrome_App-Serila_Devices
 用Chrome App的形式实现与Arduino进行串口通信
-- ***crx文件为打包文件***
+- ***crx文件为chrome app目录下的文件打包之后所生成的文件***
 - Chrome App是Chrome浏览器一种构建本地GUI程序的方法,使用HTML JS CSS来完成程序的界面和逻辑,Chrome App可以获得一些普通前端程序所不具备的模块权限,此次尝试串口通信
 - 使用Chrome App的方式完成一个与串口通信相关的程序,控制Arduino实现串口的试验:每次在Chrome App里输入一个数字,就可以通过串口发送给Arduino,然后Arduino负责把这个数字+1后返回,并在Chrome App里显示
 - 此程序中包含Arduino的程序文件
