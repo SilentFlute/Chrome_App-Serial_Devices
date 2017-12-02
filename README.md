@@ -1,5 +1,5 @@
 # Chrome_App-Serila_Devices
-用Chrome App的实现PC与Arduino进行串口通信
+通过Chrome App让PC与Arduino完成串口通信
 - ***crx文件为chrome app目录下的文件打包之后所生成的文件***
 - ***本程序需要电脑连接Arduino开发板,以及用Arduino IDE来烧录ino文件到Arduino中***
 - ***连接方式可以选择通过USB口来连接***
